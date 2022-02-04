@@ -21,7 +21,7 @@ function destructivelyRemoveLastCat(name){
     return cats;
 }
 
-function destructivelyRemoveFirstCat(cats){
+function destructivelyRemoveFirstCat(name){
     cats.shift()
     return cats;
 }
@@ -36,12 +36,12 @@ function prependCat(name){
     return copyOfCats;
 }
 
-function removeLastCat(cats){
+function removeLastCat(name){
     const copyOfCats = cats.slice(0,-1)
     return copyOfCats;
 }
 
-function removeFirstCat(cats){
+function removeFirstCat(name){
     const copyOfCats = cats.slice(1)
     return copyOfCats;
 }
